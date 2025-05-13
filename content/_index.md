@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: UKRI Living Benchmarks
-      text: We are developing open source benchmarks to support the procurement of future supercomputers
+      text: We are developing open source benchmarks and building skills to support the procurement of future supercomputers
       primary_action:
         text: See the benchmarks
         url: https://github.com/ukri-bench/
@@ -58,30 +58,60 @@ sections:
   #     # Reduce spacing
   #     spacing:
   #       padding: ["1rem", 0, "1rem", 0]
-  # - block: features
-  #   id: features
-  #   content:
-  #     title: Features
-  #     text: Build your site with blocks 🧱
-  #     items:
-  #       - name: Optimized SEO
-  #         icon: magnifying-glass
-  #         description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-  #       - name: Fast
-  #         icon: bolt
-  #         description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-  #       - name: Easy
-  #         icon: sparkles
-  #         description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-  #       - name: No-Code
-  #         icon: code-bracket
-  #         description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-  #       - name: Highly Rated
-  #         icon: star
-  #         description: Rated 5-stars by the community.
-  #       - name: Swappable Blocks
-  #         icon: rectangle-group
-  #         description: Build your pages with blocks - no coding required!
+  - block: features
+    id: about
+    content:
+      title: About
+      text: |
+        UKRI Living Benchmarks is creating and curating open-source benchmarks that support
+        the procurement and performance assessment of high-performance computing systems.
+        The suite of benchmarks can be drawn from for systems across all performance tiers.
+        Living Benchmarks is also building community skills and capabilities that support benchmarking.
+
+        The project is supported by the [UKRI Digital Research Infrastructure Programme](https://www.ukri.org/what-we-do/creating-world-class-research-and-innovation-infrastructure/digital-research-infrastructure/)
+        under grant APP46895.
+      items:
+        - name: Living
+          icon: sun
+          description: |
+            We create, curate and actively maintain a suite of benchmarks, and are building skills
+            in the community for defining and developing benchmarks.
+
+        - name: Community
+          icon: user-group
+          description: |
+            Benchmarks are developed in collaboration between domain experts and research
+            software engineers, and are drawn from across research and innovation fields.
+            Benchmarks can he suggested [here](https://github.com/ukri-bench/ukri-bench).
+        - name: Open source
+          icon: code-bracket
+          description: |
+            All benchmark codes are open source and available under an Open Source Initiative approved license.
+  - block: markdown
+    id: team
+    content:
+      title: Team
+      # subtitle: My subtitle
+      text: |
+        UKRI Living Benchmarks is led by a group of investigators from across a range of research disciplines.
+        - Andrew Coward (National Oceanographic Centre)
+        - Tom Deakin (University of Bristol)
+        - Sarah Harris (University of Sheffield)
+        - Phil Hasnip (University of York)
+        - Jeyan Thiyagalingam (STFC)
+        - Chris Richardson (University of Cambridge)
+        - Gary Polhill (James Hutton Institute)
+        - Tuomas Koskela (University College London)
+        - Andy Turner (Edinburgh Parallel Computing Centre)
+        - Andrea Townsend-Nicholson (University College London)
+        - Mark Wilkinson (University of Leicester)
+        - Garth Wells (University of Cambridge, PI)
+        - Jane Winters (University of London)
+    design:
+      # See Page Builder docs for all section customization options.
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+
   # - block: cta-image-paragraph
   #   id: solutions
   #   content:

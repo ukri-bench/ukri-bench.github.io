@@ -2,13 +2,16 @@
 #   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
 #   The `weight` parameter defines the order that the links will appear in.
 
-# main:
-#   - name: Home
-#     url: /#top
-#     weight: 10
-#   - name: Features
-#     url: /#features
-#     weight: 20
+main:
+  - name: Home
+    url: /#top
+    weight: 10
+  - name: About
+    url: /#about
+    weight: 20
+  - name: Team
+    url: /#team
+    weight: 30
 #   - name: Solutions
 #     url: /#solutions
 #     weight: 30
